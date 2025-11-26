@@ -1,0 +1,112 @@
+/* GLOBAL STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f5f7fa;
+}
+
+header {
+    background: #0054a6;
+    padding: 18px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.cart {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart span {
+    background: red;
+    padding: 2px 8px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 380px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* BUTTONS */
+button {
+    background: #0054a6;
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+button:hover {
+    background: #003f7a;
+}
+
+/* PRODUCT GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.add-btn {
+    background: #008037;
+}
+
+.add-btn:hover {
+    background: #00652b;
+}
+
+/* FORMS */
+form {
+    margin: 40px auto;
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 92%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
